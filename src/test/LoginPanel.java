@@ -19,7 +19,7 @@ public class LoginPanel {
         loginFrame = new JFrame("Đăng nhập");
         loginFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-
+        loginFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\Nơi tải lung tung\\pngtree-student-glyph-black-icon-png-image_691145.jpg"));
         loginPanel = new JPanel(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.gridx = 0;
